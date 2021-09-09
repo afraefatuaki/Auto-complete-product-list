@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import products from "../data/products.json"
+import products from "./data/products.json"
 
 class Searchbar extends Component {
 
