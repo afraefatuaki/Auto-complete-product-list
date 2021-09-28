@@ -1,11 +1,10 @@
-import Searchbar from "./components/Searchbar";
-import ProductsList from "./components/ProductsList";
-
+import AppHeader from "./components/AppHeader/AppHeader";
+import ProductsList from "./components/ProductsList/ProductsList";
 
 function App() {
   return (
     <div className="App">
-      <Searchbar />
+      <AppHeader />
       <ProductsList />
     </div>
   );
